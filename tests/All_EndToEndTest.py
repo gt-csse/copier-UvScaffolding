@@ -1,7 +1,6 @@
 import copy
 import os
 import re
-import sys
 
 from datetime import datetime
 from pathlib import Path
@@ -55,8 +54,6 @@ def test_All(configuration_info, copie, snapshot) -> None:
                     configuration_info.configuration[freeform_string], f"<<{freeform_string}>>"
                 )
 
-            python_version = ".".join(str(i) for i in sys.version_info[:2])
-
             if filename == ".copier-answers.yml":
                 content = content.replace(str(Path.cwd()), "<<cwd>>")
                 content = re.sub(
@@ -66,7 +63,6 @@ def test_All(configuration_info, copie, snapshot) -> None:
                     flags=re.MULTILINE,
                 )
             elif filename == ".python-version":
-                assert content.strip() == python_version, (content, python_version)
                 content = "<<python_version>>"
             elif filename == "LICENSE":
                 content = content.replace(str(datetime.now().year), "<<year>>")

@@ -49,10 +49,10 @@ TODO: Complete this section
 ### Verifying Signed Artifacts
 Artifacts are signed and verified using [py-minisign](https://github.com/x13a/py-minisign) and the public key in the file `./minisign_key.pub`.
 
-To verify that an artifact is valid, visit [the latest release]({{ github_url }}/releases/latest) and download the `.minisign` signature file that corresponds to the artifact, then run the following command, replacing `<filename>` with the name of the artifact to be verified:
+To verify that an artifact is valid, visit [the latest release]({{ github_url }}/releases/latest) and download the `.minisig` signature file that corresponds to the artifact, then run the following command, replacing `<filename>` with the name of the artifact to be verified:
 
 ```shell
-uv run --with py-minisign python -c "import minisign; minisign.PublicKey.from_file('minisign_key.pub').verify_file('<filename>'); print('The file has been verified.')"
+uv run --with py-minisign python -c "import minisign; minisign.PublicKey.from_file('minisign_key.pub').verify_file('<artifact_filename>'); print('The file has been verified.')"
 ```
 
 {%- endif %}
