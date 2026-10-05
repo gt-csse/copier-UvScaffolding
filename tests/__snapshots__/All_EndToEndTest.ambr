@@ -23,7 +23,7 @@
       license: Apache-2.0
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -56,7 +56,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -364,8 +364,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -1550,18 +1550,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
@@ -1709,7 +1709,7 @@
       license: BSD-3-Clause-Clear
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -1742,7 +1742,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -2050,8 +2050,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -3250,18 +3250,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
@@ -3409,7 +3409,7 @@
       license: BSL-1.0
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -3442,7 +3442,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -3750,8 +3750,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -4948,18 +4948,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
@@ -5107,7 +5107,7 @@
       license: GPL-3.0-or-later
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -5140,7 +5140,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -5448,8 +5448,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -6635,18 +6635,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
@@ -6794,7 +6794,7 @@
       license: MIT
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -6827,7 +6827,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -7135,8 +7135,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -8329,18 +8329,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
@@ -8487,7 +8487,7 @@
       license: MIT
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -8520,7 +8520,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -8828,8 +8828,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: ""
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -9966,18 +9966,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
@@ -10125,7 +10125,7 @@
       license: MIT
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: false
   
     ''',
@@ -10158,7 +10158,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -10466,8 +10466,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -11611,18 +11611,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
@@ -11770,7 +11770,7 @@
       license: None
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -11803,7 +11803,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -12111,8 +12111,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -13277,18 +13277,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.urls]
@@ -13433,7 +13433,7 @@
       license: MIT
       project_name: this_is_the_project_name
       python_package_name: this_is_the_project_name
-      python_versions: 3.10, 3.11, 3.12, 3.13, 3.14
+      python_versions: 3.11, 3.12, 3.13, 3.14, 3.15
       sign_artifacts_question: true
   
     ''',
@@ -13466,7 +13466,7 @@
       
       ## Environment (please complete the following information):
        - OS: [e.g. iOS]
-       - Python Version: [e.g. 3.14, 3.13, 3.12, 3.11, etc.]
+       - Python Version: [e.g. 3.15, 3.14, 3.13, 3.12, 3.11, etc.]
        - this_is_the_project_name Version [e.g. 1.2.3]
       
       ## Additional context
@@ -13774,8 +13774,8 @@
           with:
             # These values can be customized for your specific requirements.
             operating_system_json_string: "[ 'macos-latest', 'ubuntu-latest', 'windows-latest' ]"
-            python_version_json_string: "['3.14', '3.13', '3.12', '3.11', '3.10']"
-            build_python_version: "3.10"
+            python_version_json_string: "['3.15', '3.14', '3.13', '3.12', '3.11']"
+            build_python_version: "3.11"
             coverage_badge_gist_id: "<<coverage_badge_gist_id>>"
             coverage_badge_gist_username: "<<coverage_badge_gist_username>>"
       
@@ -14977,18 +14977,18 @@
       
       description = "Add your description here"
       readme = "README.md"
-      requires-python = ">= 3.10"
+      requires-python = ">= 3.11"
       dependencies = []
       classifiers = [
           "Operating System :: MacOS",
           "Operating System :: Microsoft :: Windows",
           "Operating System :: POSIX :: Linux",
           "Programming Language :: Python",
+          "Programming Language :: Python :: 3.15",
           "Programming Language :: Python :: 3.14",
           "Programming Language :: Python :: 3.13",
           "Programming Language :: Python :: 3.12",
           "Programming Language :: Python :: 3.11",
-          "Programming Language :: Python :: 3.10",
       ]
       
       [project.license]
