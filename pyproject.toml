@@ -3,7 +3,7 @@ name = "copier-uvscaffolding"
 version = "0.1.0"
 description = "Copier (https://copier.readthedocs.io/) template to create uv-based python scaffolding."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "copier>=9.6.0",
     "copier-template-extensions>=0.3.3",
@@ -28,23 +28,16 @@ dev = [
 [tool.pytest.ini_options]
 addopts = "--verbose -vv --capture=no"
 
-python_files = [
-    "**/*Test.py",
-]
+python_files = ["**/*Test.py"]
 norecursedirs = ["template"]
 
 [tool.ruff]
-exclude = [
-    "template/**",
-]
+exclude = ["template/**"]
 
 line-length = 110
 
 [tool.ruff.lint]
-exclude = [
-    "template/**",
-    "tests/**",
-]
+exclude = ["template/**", "tests/**"]
 
 select = ["ALL"]
 
@@ -53,15 +46,15 @@ ignore = [
     "ANN003", # Missing type annotation for `**kwargs`
     "BLE001", # Do not catch blind exception: `Exception`
     "COM812", # Trailing comma missing
-    "D202", # No blank lines allowed after function docstring
-    "D205", # 1 blank line required between summary line and description
-    "E501", # Line too long
-    "I001", # Import block is un-sorted or un-formatted
+    "D202",   # No blank lines allowed after function docstring
+    "D205",   # 1 blank line required between summary line and description
+    "E501",   # Line too long
+    "I001",   # Import block is un-sorted or un-formatted
     "INP001", # Missing __init__.py file
-    "N802", # Function name `xxx` should be lowercase
-    "N999", # Invalid module name
-    "S101", # Use of assert detected
-    "UP032", # Use f-string instead of `format` call
+    "N802",   # Function name `xxx` should be lowercase
+    "N999",   # Invalid module name
+    "S101",   # Use of assert detected
+    "UP032",  # Use f-string instead of `format` call
 ]
 
 [tool.ruff.lint.mccabe]

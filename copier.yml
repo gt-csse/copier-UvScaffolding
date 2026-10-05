@@ -70,7 +70,7 @@ python_package_name:
 python_versions:
   type: str
   help: Enter a comma-delimited list of Python versions to support.
-  default: "3.10, 3.11, 3.12, 3.13, 3.14"
+  default: "3.11, 3.12, 3.13, 3.14, 3.15"
   validator: |-
     {% if not (python_versions | regex_search('^(\\d+\\.\\d+)(\\s*,\\s*\\d+\\.\\d+)*,?$')) %}
     Please enter one or more valid Python versions, separated by commas.
