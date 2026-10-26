@@ -4,8 +4,8 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Generator
 
-import rtyaml
 import tomlkit
+import yaml
 
 from dbrownell_Common.ContextlibEx import ExitStack
 from dbrownell_Common import PathEx
@@ -77,7 +77,7 @@ def RunManually(
     configuration_filename = PathEx.CreateTempFileName(".yaml")
 
     with configuration_filename.open("w") as f:
-        rtyaml.dump(configuration, f)
+        yaml.safe_dump(configuration, f, sort_keys=False)
 
     with ExitStack(configuration_filename.unlink):
         command_line = f'copier copy "{template_dir}" "{output_dir}" --trust --overwrite --defaults --data-file "{configuration_filename}" --vcs-ref=HEAD'
